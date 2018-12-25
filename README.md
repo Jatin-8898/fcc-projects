@@ -1,2 +1,3 @@
-# fcc-projects
-A repo for the fcc projects
+# FCC Projects
+
+- Tribute Page
