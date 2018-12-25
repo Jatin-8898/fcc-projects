@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,900');
+
+body {
+    font-family: "Oswald", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    font-size: 14px;
+    background-color: #e0e0e0;
+    background-blend-mode: lighten;
+}
+
+/* JUMBOTRON */
+.custom-jumbotron {
+    color: white;
+    background-image: url("../images/Elon-Musk-Best-Wallpaper.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+/***********************MAIN SECTION  ***************************/
+.title-name {
+    font-family: 'Poppins', sans-serif;
+    font-size: 64px;
+}
+
+.highlight {
+    color: #c62828;
+}
+
+.title-wrapper {
+    border-left: .2rem solid #c62828;
+    padding: 0rem 0 0rem .8rem;
+    margin-left: -1rem;
+}
+
+.separator {
+    width: 50px;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.5);
+    margin: 1.4rem 0;
+}
+
+#tribute-info {
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+figure {
+    overflow: hidden;
+    width: 90%;
+    height: auto;
+}
+
+.figure-img {
+    display: block;
+}
+
+figure img {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+figure:hover img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.link-effect {
+    padding: 10px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+#main a {
+    position: relative;
+    color: inherit;
+    text-decoration: none;
+    line-height: 24px;
+}
+
+.link-effect:hover:before,
+.link-effect:hover:after {
+    transform: translateX(0);
+}
+
+.link-effect:before {
+    bottom: 0;
+    transform: translateX(-100%);
+}
+
+.link-effect:before,
+.link-effect:after {
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #c62828;
+}
+
+#main a:before,
+#main a:after {
+    content: '';
+    position: absolute;
+    transition: transform .5s ease;
+}
+
+.link-effect:hover:before,
+.link-effect:hover:after {
+    transform: translateX(0);
+}
+
+.link-effect:after {
+    top: 0;
+    transform: translateX(100%);
+}
+
+.link-effect:before,
+.link-effect:after {
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #c62828;
+}
+
+
+
+/*********************** ABOUT ***************************/
+#about {
+    background-color: #fff;
+    font-size: 1.2rem;
+    font-family: "Oswald", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+#about h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+#about p {
+    text-align: justify;
+    color: #000000;
+}
+
+#about a,
+#about a:visited {
+    color: #fe0000;
+    outline: none;
+}
+
+#about a:hover {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+/*********************** QUOTES ***************************/
+#quotes {
+    height: auto;
+    background: url(../images/Elon_M7J7WT.jpg);
+    background-size: cover;
+    background-position: right;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+.quote-box {
+    border-left: 0.3rem solid #fe0000;
+    background: #fff;
+    padding: 3rem 3rem 1rem 3rem;
+    margin: 7rem 1rem;
+}
+
+
+/*********************** FOOTER ***************************/
+footer {
+    background-color: #fff;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #000000;
+}
